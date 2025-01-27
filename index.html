@@ -1,144 +1,271 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Sourabh Soni's Portfolio</title>
-      <link rel="stylesheet" href="styles.css">
-      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<html lang="en">
 
-    </head>
-    <body>
-      <header>
-        <h1>Sourabh Soni</h1>
-      </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh Soni - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
 
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Summary goes here</p>
-      </section>
+</head>
 
-      <section id="education">
-        <h2>Education</h2>
-        <div class="education-item">
-          <h3>Masters in Computer Application (MCA)</h3>
-          <p>Rajasthan Technical University, Kota, Rajasthan</p>
-          <p>May 2023 - June 2025</p>
-          <p>CGPA: 8.34/10</p>
-          <p>Elective: Artificial Intelligence and Cloud Computing</p>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="profile">
+                <h1>Sourabh Soni</h1>
+                <p class="title">SOFTWARE DEVELOPER | LLM | GATE FELLOW</p>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +91 8107655737</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:sourabhs701@gmail.com">sourabhs701@gmail.com</a></p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sourabhsoni/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/SourabhSoni" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://medium.com/@SourabhSoni" target="_blank"><i class="fab fa-medium"></i></a>
+                </div>
+            </div>
         </div>
-        <div class="education-item">
-          <h3>Bachelors in Computer Application (BCA)</h3>
-          <p>University of Rajasthan, Jaipur, Rajasthan</p>
-          <p>May 2019 - June 2022</p>
-          <p>CGPA: 7.09/10</p>
-        </div>
-      </section>
+    </header>
 
-      <section id="work-history">
-        <h2>Work History</h2>
-          <div class="work-item">
-            <h3>Software Developer Intern</h3>
-            <p>Vedhin Technologies, Jaipur, Rajasthan</p>
-            <p>Mar 2024 - Oct 2024</p>
-            <ul>
-              <li>Designed and implemented RESTful APIs.</li>
-              <li>Developed responsive UIs using React.js and Material-UI.</li>
-              <li>Collaborated on technical documentation and code reviews.</li>
-              <li>Assisted in deploying web applications to production.</li>
-            </ul>
-          </div>
-          <div class="work-item">
-            <h3>Python Developer Intern</h3>
-            <p>NeuroNexus Innovations, Remote</p>
-            <p>Dec 2023 - Feb 2024</p>
-            <ul>
-              <li>Improved code reliability through unit testing and debugging.</li>
-              <li>Designed user-centric interfaces.</li>
-              <li>Used Git for version control.</li>
-              <li>Automated repetitive tasks.</li>
-              <li>Conducted research on integrating Python frameworks.</li>
-            </ul>
-          </div>
-      </section>
+    <section id="summary" class="section-container">
+        <div class="container">
+            <h2><i class="fas fa-user-graduate"></i> Summary</h2>
+            <p>Experienced Software Developer with expertise in full-stack development, RESTful API design, Agile
+                methodologies, and cloud architecture. Proven track record of developing scalable web applications and
+                implementing advanced AI-driven solutions. Passionate about creating efficient, user-centric
+                technological solutions that drive business value.</p>
+        </div>
+    </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-item">
-          <h3>MakeThumb.com</h3>
-          <p>Node.js, React, AWS, Gemini AI, MongoDB, Express.js</p>
-          <ul>
-            <li>Developed a PDF-to-JSON parser.</li>
-            <li>Set up AWS S3 for storage and Render for hosting.</li>
-            <li>Automated resume-to-portfolio conversion.</li>
-            <li>Implemented user-facing features.</li>
-            <li>Conducted thorough testing.</li>
-          </ul>
+    <section id="projects" class="section-container bg-light">
+        <div class="container">
+            <h2><i class="fas fa-laptop-code"></i> Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>MakeThumb.com <span class="project-subtitle">- AI-Powered Automation Tool</span></h3>
+                    <p class="project-desc">Transform (resume → portfolio website)</p>
+                    <p class="tech-stack"><i class="fas fa-tools"></i> Tech Stack: Node.js • React • AWS • Gemini AI •
+                        MongoDB • Express.js</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Developed a PDF-to-JSON parser using Gemini Flash 1.5,
+                            reducing data parsing errors by 90%.</li>
+                        <li><i class="fas fa-check-circle"></i> Set up a reliable infrastructure with AWS S3 for storage
+                            and Render for hosting, achieving 99.9% uptime.</li>
+                        <li><i class="fas fa-check-circle"></i> Automated the process of converting resumes into
+                            portfolio websites, increasing efficiency by 70% compared to manual workflows.</li>
+                        <li><i class="fas fa-check-circle"></i> Implemented user-facing features such as automated email
+                            notifications and progress tracking for enhanced user experience.</li>
+                        <li><i class="fas fa-check-circle"></i> Conducted thorough testing to minimize bugs, reducing
+                            post-deployment issues by 95%.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>ChatWithThumb <span class="project-subtitle">- Real-time Chat Application</span></h3>
+                    <p class="tech-stack"><i class="fas fa-tools"></i> Tech Stack: Socket.IO • Node.js • React • MongoDB
+                        • Express.js</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Built a real-time messaging platform with Socket.IO,
+                            ensuring smooth bidirectional communication.</li>
+                        <li><i class="fas fa-check-circle"></i> Optimized WebSocket implementation, improving chat
+                            reliability and scalability by 30%.</li>
+                        <li><i class="fas fa-check-circle"></i> Added features like typing indicators and read receipts,
+                            enhancing user interactivity by 40%.</li>
+                        <li><i class="fas fa-check-circle"></i> Ensured uninterrupted service during peak usage by
+                            implementing server load balancing strategies.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <h3>GitHorizon <span class="project-subtitle">- VS Code Extension</span></h3>
+                    <p class="tech-stack"><i class="fas fa-tools"></i> Tech Stack: vscode api, JavaScript</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Created a VS Code extension to visualize Git commit
+                            history directly within the editor.</li>
+                        <li><i class="fas fa-check-circle"></i> Integrated seamlessly with VS Code's interface for a
+                            smooth user experience.</li>
+                        <li><i class="fas fa-check-circle"></i> Processed and displayed over 1,000+ commits from various
+                            repositories during testing.</li>
+                        <li><i class="fas fa-check-circle"></i> Introduced timeline-based visualizations to simplify
+                            version history tracking, improving clarity by 50%.</li>
+                        <li><i class="fas fa-check-circle"></i> Designed interactive tooltips and navigation aids to
+                            enhance developer productivity</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="project-item">
-          <h3>ChatWithThumb</h3>
-          <p>Socket.IO, Node.js, React, MongoDB, Express.js</p>
-          <ul>
-            <li>Built a real-time messaging platform.</li>
-            <li>Optimized WebSocket implementation.</li>
-            <li>Added typing indicators and read receipts.</li>
-            <li>Implemented server load balancing.</li>
-          </ul>
-        </div>
-        <div class="project-item">
-          <h3>GitHorizon</h3>
-          <p>vscode api, JavaScript</p>
-          <ul>
-            <li>Created a VS Code extension to visualize Git commit history.</li>
-            <li>Integrated seamlessly with VS Code.</li>
-            <li>Processed and displayed over 1,000+ commits.</li>
-            <li>Introduced timeline-based visualizations.</li>
-            <li>Designed interactive tooltips.</li>
-          </ul>
-        </div>
-      </section>
+    </section>
 
-      <section id="achievements">
-        <h2>Achievements</h2>
-        <div class="achievement-item">
-          <h3>Excel for Finance (CFI)</h3>
-          <p>Gained expertise in financial modeling techniques.</p>
+    <section id="experience" class="section-container">
+        <div class="container">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="experience-card">
+                <h3>Software Developer Intern</h3>
+                <p class="company"><i class="fas fa-building"></i> Vedhin Technologies, Jaipur, Rajasthan</p>
+                <p class="duration"><i class="fas fa-calendar-alt"></i> Mar 2024 - Oct 2024</p>
+                <ul>
+                    <li><i class="fas fa-tasks"></i> Designed and implemented RESTful APIs to support various business
+                        operations, ensuring seamless integration with frontend systems.</li>
+                    <li><i class="fas fa-tasks"></i> Developed responsive and dynamic user interfaces using React.js and
+                        Material-UI, enhancing the overall user experience.</li>
+                    <li><i class="fas fa-tasks"></i> Collaborated with cross-functional teams to maintain comprehensive
+                        technical documentation and adhere to best coding practices through regular code reviews.</li>
+                    <li><i class="fas fa-tasks"></i> Assisted in deploying web applications to production, gaining
+                        experience in DevOps workflows and CI/CD pipelines.</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Python Developer Intern</h3>
+                <p class="company"><i class="fas fa-building"></i> NeuroNexus Innovations, Remote</p>
+                <p class="duration"><i class="fas fa-calendar-alt"></i> Dec 2023 - Feb 2024</p>
+                <ul>
+                    <li><i class="fas fa-tasks"></i> Improved code reliability and functionality through rigorous unit
+                        testing, debugging, and performance optimization.</li>
+                    <li><i class="fas fa-tasks"></i> Designed and built user-centric, accessible interfaces, resulting
+                        in a significant boost in user engagement and satisfaction.</li>
+                    <li><i class="fas fa-tasks"></i> Streamlined project collaboration using Git for version control,
+                        enhancing team productivity and reducing merge conflicts.</li>
+                    <li><i class="fas fa-tasks"></i> Contributed to the automation of repetitive tasks, saving
+                        development time and improving workflow efficiency.</li>
+                    <li><i class="fas fa-tasks"></i> Conducted exploratory research on integrating Python frameworks
+                        with real-world applications, gaining valuable hands-on experience.</li>
+                </ul>
+            </div>
         </div>
-        <div class="achievement-item">
-          <h3>Analyzing and Visualizing using R Programming</h3>
-          <p>Gained hands-on experience in data cleaning, transformation, and ETL processes.</p>
-        </div>
-      </section>
+    </section>
 
-      <section id="technical-skills">
-        <h2>Technical Skills</h2>
-        <div class="skill-section">
-          <h3>Languages:</h3>
-          <ul>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-          </ul>
+    <section id="skills" class="section-container bg-light">
+        <div class="container">
+            <h2><i class="fas fa-code"></i> Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis (Caching)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-laptop"></i> Languages</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Authentication & Authorization (JWT)</li>
+                        <li>API Testing (Postman, Jest)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-desktop"></i> Frontend</h3>
+                    <ul>
+                        <li>React.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <ul>
+                        <li>AWS (EC2, Lambda, S3 Bucket)</li>
+                        <li>Docker</li>
+                        <li>Deployment (Vercel, Render, Netlify, GitPages)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-code-branch"></i> Version Control</h3>
+                    <ul>
+                        <li>GitHub</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                    <ul>
+                        <li>MERN Stack</li>
+                        <li>WebSocket</li>
+                        <li>HTTP/HTTPS Protocols</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="skill-section">
-          <h3>Courses:</h3>
-          <ul>
-            <li>Python Certification</li>
-            <li>Java Certification</li>
-          </ul>
-        </div>
-      </section>
+    </section>
 
-      <footer>
-        <p>&copy; 2024 Sourabh Soni</p>
-      </footer>
-      <script src="script.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
-    </body>
-    </html>
+    <section id="certifications" class="section-container">
+        <div class="container">
+            <h2><i class="fas fa-certificate"></i> Certifications</h2>
+            <div class="certifications-list">
+                <div class="certification-card">
+                    <h3>Python Certification</h3>
+                    <p>It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and
+                        Iteration, Modularity, Objects and Types and Classes</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Java Certification</h3>
+                    <p>It will cover basic topics in Java language such as classes, data structures, inheritance,
+                        exception handling, etc.</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Excel for Finance (CFI)</h3>
+                    <p>– Gained expertise in financial modeling techniques, streamlining workflows, and reducing errors
+                        in complex calculations by 30%. Applied skills to build data-driven solutions for backend
+                        analytics and optimization</p>
+                </div>
+                <div class="certification-card">
+                    <h3>Analyzing and Visualizing using R Programming (7 Days Workshop)</h3>
+                    <p>Gained hands-on experience in data cleaning, transformation, and ETL processes. Utilized R for
+                        effective data visualization, aiding in informed decision-making and backend data analysis for
+                        web applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-container bg-light">
+        <div class="container">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education-card">
+                <h3>Masters in Computer Application(MCA)</h3>
+                <p class="university"><i class="fas fa-university"></i> Rajasthan Technical University, Kota, Rajasthan
+                </p>
+                <p class="duration"><i class="fas fa-calendar-alt"></i> May 2023 - June 2025</p>
+                <p>CGPA: 8.34/10</p>
+                <p>Elective: Artificial Intelligence and Cloud Computing</p>
+            </div>
+            <div class="education-card">
+                <h3>Bachelors in Computer Application(BCA)</h3>
+                <p class="university"><i class="fas fa-university"></i> University of Rajasthan, Jaipur, Rajasthan</p>
+                <p class="duration"><i class="fas fa-calendar-alt"></i> May 2019 - June 2022</p>
+                <p>CGPA: 7.09/10</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <p>© 2024 Sourabh Soni. All rights reserved.</p>
+            <p>References available upon request.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
